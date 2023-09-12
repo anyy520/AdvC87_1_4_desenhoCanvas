@@ -1,16 +1,21 @@
-.bodyBackground {
+/* Ajustamos a background image (imagem de fundo) para body. ○ Ajustamos a posição da background image. */
+/*○ background-size: cover- A background image envolverá todo o container, mesmo que tenha que alargar a imagem ou*/
+/* cortar suas bordas. */
+.bodyBackgorund {
   background-image: url("bg1.jpg");
   background-position: center;
   background-size: cover;
-  text-align: center;
 }
+
+/* Ajustamos color (cor) e font-size (tamanho da fonte). */
 h1
 {
 	color: red; 
-	
 	font-size: 40px;
 }
 
+/* ○ Incrementamos width para a border em 10 pixels. ○ Ajustamos background color para white. */
+/*○ border-style:ridge; Especificamos uma borda 3D em 90 graus. O efeito depende do valor de border-color. */
 #myCanvas
 {
 	border-width:10px;
