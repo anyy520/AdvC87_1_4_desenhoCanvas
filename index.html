@@ -1,20 +1,28 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 
-<title>C87</title>
+<title>C81</title>
+<!-- incluímos style.css à tag head. -->
 <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
+<!-- Ajustaremos uma class para a tag body, para estilizar o nosso projeto, nesse caso com a imagem de fundo que queremos -->
+<body class="bodyBackgorund">
 
-<body class="bodyBackground">
 
+	<!-- Colocaremos todos os elementos utilizados dentro dessa tag. -->
 <center>
-	<h1>Meu Primeiro Canvas</h1>	
+	<h1>Meu Primeiro Canvas</h1>
+
+<!-- tag canvas posicionará a caixa canvas, a qual vimos anteriormente. Podemos fornecer qualquer width -->
+	<!--(largura) e height (altura) que quisermos. Além disso, fornecemos uma id a ela, para podermos consultá-la. -->
 	<canvas id="myCanvas" width="800" height="600">
 	</canvas>
 	<br>
 	
-	<!--ATIVIDADE ADICIONAL -->
+	<!--ATIVIDADE ADCIONAL -->
 	<span>Cor - </span>  <input type="text" id="color">
 	<br>
 	<button onclick="clearArea();">Limpar</button>
@@ -22,8 +30,5 @@
 
 <script src="main.js"></script>
 
-
 </body>
 </html>
-
-
