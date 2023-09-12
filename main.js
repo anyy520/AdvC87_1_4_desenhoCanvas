@@ -31,6 +31,9 @@ ctx.arc(200, 200, 40 ,0 , 2*Math.PI);
 ctx.stroke();
 
 canvas.addEventListener("mousedown", myMousedown);
+//significa o evento da função.■ Essa e possui relação com o evento.
+//Por exemplo: se o evento for mousedown, então essa e possui
+//uma relação com o evento mousedown.
 
 function myMousedown(e)
 {
